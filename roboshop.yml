@@ -1,0 +1,6 @@
+- name: roboshop project setup
+  hosts: all
+  roles:
+    - "{{ role_name }}"
+
+# we are using roles and name of the role is role_name and passing that as a variable so "{{ role_name }}"
