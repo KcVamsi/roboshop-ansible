@@ -4,3 +4,11 @@
     - "{{ role_name }}"
 
 # we are using roles and name of the role is role_name and passing that as a variable so "{{ role_name }}"
+
+
+# code to run playbook
+
+# ansible-playbook -i localhost, roboshop.yml -e ansible_user=centos -e ansible_password=DevOps321 -e role_name=frontend
+# it we run againt any other role like cart then it will run againt that.
+
+
